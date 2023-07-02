@@ -101,7 +101,7 @@ function keep_web_alive() {
   });
 }
 
-//setInterval(keep_web_alive, 10 * 1000);
+setInterval(keep_web_alive, 10 * 1000);
 
 app.use(
   "/",
